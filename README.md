@@ -29,5 +29,7 @@ Notes:
 
 Screen shot:
 ------------
+![jus' kiddin'](https://yeldaba.files.wordpress.com/2012/06/broken-computer.jpg)
+(Jus' kiddin' ;))
 Again, this is the effect of the original badpthread. You can't really capture worsepthread given it's highly-effective memory allocation system.
 ![Screen shot of usage](https://i.imgur.com/ZR2kJaA.png)
