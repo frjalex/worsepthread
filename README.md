@@ -1,4 +1,4 @@
-# Worsepthread (The sodomization of [Badpthread](https://github.com/735tesla/badpthread) and [p.c](https://github.com/frjalex/p.c)
+# Worsepthread (The sodomization of [Badpthread](https://github.com/735tesla/badpthread) and [p.c](https://github.com/frjalex/p.c) ).
 
 This is the combination of a dynamic library and a zombie that, when loaded into a process, will execute a function before that process's main that starts a new thread. This new thread will basically fork itself as a UNIX-style daemon (zombie!), launch another process whhich starts another thread, that reads the memory from **last known occupied memory location** and copies them into new memory blocks. This will, eventually, use up about 90% of the total available memory. And, it's safe from being killed by the UNIX kernel's standard memory management function, because it rests and stops allocating more memory for a brief time during the period of `20pi rounds`.
 
