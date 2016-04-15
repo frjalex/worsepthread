@@ -29,4 +29,5 @@ Notes:
 
 Screen shot:
 ------------
+Again, this is the effect of the original badpthread. You can't really capture worsepthread given it's highly-effective memory allocation system.
 ![Screen shot of usage](https://i.imgur.com/ZR2kJaA.png)
