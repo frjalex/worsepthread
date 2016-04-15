@@ -34,7 +34,7 @@ void *badproggy_main(void *argv) {
 	int *badproggy_main_funcptr = worse_than_ever();
 	if (!badproggy_main_funcptr)
 		return &retcode;
-	retcode = (*badproggy_main_funcptr)(argc, (const char**)argvp);
+	retcode = (*badproggy_main_funcptr)();
 	return &retcode;
 }
 
